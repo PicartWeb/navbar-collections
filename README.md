@@ -8,6 +8,35 @@
 ![Responsive](https://img.shields.io/badge/Responsive-Mobile%20First-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+
+
+# 📸 Collection Preview
+
+| Simple Clean | Dark Developer |
+|---|---|
+| ![](PREVIEW/Simple%20Clean.png) | ![](PREVIEW/Dark%20Developer.png) |
+
+| Transparent Hero | Glass Morphism |
+|---|---|
+| ![](PREVIEW/Transparent%20Hero.png) | ![](PREVIEW/Glass%20Morphism.png) |
+
+| Animated Underline | Dropdown |
+|---|---|
+| ![](PREVIEW/Animated%20Underline.png) | ![](PREVIEW/Dropdown.png) |
+
+| Mega Menu | Centered Logo |
+|---|---|
+| ![](PREVIEW/Mega.png) | ![](PREVIEW/Centered%20Logo.png) |
+
+| Sidebar Mobile | Full Screen Mobile |
+|---|---|
+| ![](PREVIEW/Sidebar%20Mobile.png) | ![](PREVIEW/Full%20Screen%20Mobile.png) |
+
+| E-Commerce | SaaS With CTA |
+|---|---|
+| ![](PREVIEW/E-Commerce.png) | ![](PREVIEW/SaaS%20With%20CTA.png) |
+
+---
 ---
 
 ## ✨ Overview
@@ -164,7 +193,7 @@ Every navbar includes accessibility best practices:
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/responsive-navbar-collection.git
+git clone https://github.com/PicartWeb/navbar-collections.git
 ```
 
 or download the ZIP.
