@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Mega Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#">Gridwise</a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="primary-menu">
+        <div class="mega">
+          <button class="mega-toggle" type="button" aria-label="Open solutions menu" aria-expanded="false">Solutions</button>
+          <div class="mega-menu">
+            <section>
+              <h2>Teams</h2>
+              <a href="#">Marketing</a>
+              <a href="#">Operations</a>
+              <a href="#">Product</a>
+            </section>
+            <section>
+              <h2>Use cases</h2>
+              <a href="#">Planning</a>
+              <a href="#">Reporting</a>
+              <a href="#">Dashboards</a>
+            </section>
+            <section class="highlight">
+              <h2>New guide</h2>
+              <p>Build a better navigation system for fast-growing teams.</p>
+            </section>
+          </div>
+        </div>
+        <a href="#">Resources</a>
+        <a href="#">Company</a>
+        <a class="pill" href="#">Start free</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p>Mega menu</p>
+      <h1>A grouped navigation system for content-rich websites.</h1>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

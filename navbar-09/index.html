@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar Mobile Navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#">RouteLab</a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="primary-menu">
+        <a href="#">Overview</a>
+        <a href="#">Maps</a>
+        <a href="#">Planning</a>
+        <a href="#">Support</a>
+      </div>
+    </nav>
+  </header>
+  <div class="backdrop" hidden></div>
+  <main>
+    <section class="hero">
+      <p>Off-canvas mobile</p>
+      <h1>A desktop navbar that becomes a smooth mobile sidebar.</h1>
+      <p>The sidebar slides in from the edge and closes with Escape, backdrop clicks, or outside clicks.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

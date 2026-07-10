@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Navbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#">Mercato</a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="primary-menu">
+        <a href="#">New</a>
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Sale</a>
+      </div>
+      <div class="actions" aria-label="Shop actions">
+        <button type="button" aria-label="Search products">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 18a7.5 7.5 0 1 1 5.3-12.8 7.5 7.5 0 0 1-5.3 12.8Zm5.4-2.1 4.1 4.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <button type="button" aria-label="Open account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8a7 7 0 0 1 14 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <button class="cart" type="button" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h15l-2 9H8L6 4H3m6 16h.01M18 20h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>2</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p>Shop header</p>
+      <h1>An e-commerce navbar with category links, search, and cart actions.</h1>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

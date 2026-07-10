@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Dropdown Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#">AtlasApp</a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="primary-menu">
+        <a href="#">Home</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle" type="button" aria-label="Open product menu" aria-expanded="false">
+            Product
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 7l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="dropdown-menu">
+            <a href="#"><strong>Analytics</strong><span>Understand every journey.</span></a>
+            <a href="#"><strong>Automation</strong><span>Trigger smart workflows.</span></a>
+            <a href="#"><strong>Reports</strong><span>Share clear results.</span></a>
+          </div>
+        </div>
+        <a href="#">Customers</a>
+        <a href="#">Pricing</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p>Dropdown pattern</p>
+      <h1>A responsive navbar with an accessible dropdown menu.</h1>
+      <p>Click outside or press Escape to close open menus.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
